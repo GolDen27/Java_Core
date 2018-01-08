@@ -1,0 +1,21 @@
+stop at com.epam.helloworld.Calculator:9
+run
+list
+print a
+dump a
+stop at com.epam.helloworld.operation.Adder:19
+cont
+list
+print sum
+step
+print sum
+step up
+list
+clear com.epam.helloworld.operation.Adder:19
+step
+next
+list
+next
+list
+eval adder.getSum()
+cont
